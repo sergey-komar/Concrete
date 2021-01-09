@@ -1,0 +1,307 @@
+@media(max-width:1200px){
+    .header-images img{
+        max-width: 100%;
+    }
+    .header__phone-btn{
+        margin-left: 0;
+        margin-top: 20px;
+    }
+    .info__item{
+        width: 310px;
+    }
+    .work__img img{
+        width: 100%;
+    }
+    .logo__company-top{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo__company-bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+
+
+
+
+@media(max-width:1100px){
+    .logo__company-top{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .logo__company-bottom{
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__company{
+        width: 200px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+@media(max-width:968px){
+    .header__phone{
+        font-size: 18px;
+        padding-left: 25px;
+    }
+    .menu__list-item {
+        margin-left: 20px;
+    }
+    .header__phone-btn{
+        display: none;
+    }
+    .info__items{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 15px;
+    }
+    .info__item{
+        width: 100%;
+    }
+    .info__item-number{
+        margin-top: 15px;
+    }
+    .info__item-text{
+        margin: 10px auto 20px;
+    }
+    .advantages__title{
+        margin-top: 90px;
+    }
+    .advantages__inner-subtitle{
+        margin-top: 50px;
+        color: #000;
+        font-weight: 700;
+    }
+    .advantages__inner{
+        flex-direction: column;
+    }
+    .advantages__block{
+        margin-top: 35px;
+    }
+    .advantages__text{
+        color: #000;
+        font-weight: 500;
+    }
+    .price__inner{
+        flex-wrap: wrap;
+    }
+    .price__title{
+        /* margin: 0; */
+    }
+    .price__services{
+        margin-top: 90px;
+    }
+    .work__conditions{
+        flex-direction: column;
+    }
+    .work__description-inner{
+        justify-content: flex-start;
+    }
+    .order__title{
+        padding-top: 0;
+    }
+    .order__images{
+        width: 100%;
+    }
+    .window{
+        width: 270px;
+    }
+    .footer__menu{
+        margin-left: 0;
+    }
+}
+
+
+
+
+
+
+
+
+@media(max-width:768px){
+    .header__phone{
+        display: none;
+    }
+    .header__title{
+        font-size: 55px;
+    }
+    .header__description{
+        font-size: 20px;
+    }
+    .header__button{
+        padding: 18px 60px;
+    }
+    .footer__social{
+        width: 300px;
+    }
+}
+
+
+
+@media(max-width:680px){
+    .header__inner{
+        flex-direction: column;
+        align-items: center;
+    }
+    .main__form-input{
+        padding-left: 5px;
+    }
+    .price__services{
+       text-align: center;
+    }
+    .work__title{
+        margin-top: 100px;
+    }
+    .work__description{
+        margin-top: 30px;
+    }
+    .order__inner{
+        flex-direction: column;
+    }
+    .order{
+        margin-top: 80px;
+    }
+    .order__form{
+        margin-top: 50px;
+    }
+    .logo__title{
+        margin-top: 80px;
+    }
+    .window{
+        display: none;
+    }
+    .footer__menu{
+        margin-right: 90px;
+    }
+    .footer__inner{
+        flex-wrap: wrap;
+    }
+   
+}
+
+
+
+
+
+
+
+@media(max-width:540px){
+    .menu__list{
+        display: none;
+        position: absolute;
+        right: 0px;
+        background-color: #fff;
+        width: 100%;
+        text-align: center;
+    }
+    .mobile__button{
+        display: block;
+    }
+    .menu__link{
+        width: 50%;
+        font-weight: 700;
+        padding-top: 30px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid #333333;
+        color: #3D9BE9;
+    }
+    .header__title{
+        margin-top: 50px;
+        font-size: 40px;
+    }
+    .header__button{
+       width: 100%;
+       text-align: center;
+    }
+    .popap{
+        left: 50%;
+    }
+    .header__description{
+        font-size: 18px;
+    }
+    .price__brand{
+        column-gap: 40px;
+    }
+    .work__conditions{
+        margin-top: 20px;
+    }
+    .map{
+        margin-top: 90px;
+    }
+    .footer__inner{
+        padding: 0;
+        flex-direction: column;
+    }
+    .footer__text,
+    .footer__information,
+    .footer__menu,
+    .footer__contact{
+        font-size: 14px;
+        margin-top: 20px;
+        text-align: center;
+        margin-right: 0;
+    }
+    .footer__btn{
+        margin-top: 70px;
+    }
+    .footer__social{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .footer__company{
+        text-align: center;
+    }
+    
+    
+}
+
+
+
+
+@media(max-width:440px){
+    .price__brand{
+        flex-direction: column;
+    }
+    .price__brand-title{
+        margin-top: 30px;
+        font-size: 20px;
+    }
+    .price__inner{
+        margin: 0;
+    }
+    .price__service-title{
+        font-size: 20px;
+    }
+    .price__service--text{
+        margin-top: 50px;
+    }
+    .work__title{
+        font-size: 28px;
+    }
+    .logo__company-top img{
+        width: 100%; 
+   }
+   .logo__company-bottom img{
+    width: 100%; 
+    }
+    .logo__company-top{
+        margin: 0;
+    }
+    .logo__company-top img{
+        margin-top: 40px;
+    }
+    .logo__company-bottom{
+        margin: 0;
+    }
+}
